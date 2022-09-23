@@ -3,5 +3,10 @@
 }
 
 .hours-box {
-    max-width: 400px;
+
+   /* max-width: 400px; */
+}
+
+.jumbotron {
+    margin: 0;
 }

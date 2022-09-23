@@ -15,7 +15,7 @@
     <title>Mobile Computer Repair Doctor</title>
 </head>
 <body>
-    <Header class="jumbotron jumbotron-fluid">
+    <Header class="jumbotron jumbotron-fluid bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -26,17 +26,26 @@
         </div>
     </Header>
 
-    <nav class="navbar navbar-expand-sm border border-dark bg-primary">
-        <ul class="navbar-nav">
-            <li class="nav-item active"><a class="nav-link text-dark" href='#'>Home</a></li>
-            <li class="nav-item"><a class="nav-link text-dark" href='services.html'>Services</a></li>
-            <li class="nav-item"><a class="nav-link text-dark" href='aboutus.html'>About Us</a></li>
-            <li class="nav-item"><a class="nav-link text-dark" href='blog.html'>Blog</a></li>
-        </ul>
-        <form class="form-inline my-0 my-lg-0">
-            <input class="form-control mr-sm-2 border border-dark" type="search" placeholder="" aria-label="Search" >
-            <button class="btn btn-light my-2 my-sm-0 border border-dark" type="submit">Search</button>
-        </form>
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top"> <!-- edit more and reference Bootstrap Week 1 Navigation-exer navbar and crumbs -->
+        <div class="container">
+            <nav class="navbar navbar-expand-sm border border-dark bg-primary">
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#computerNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="computerNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a class="nav-link text-dark" href='#'>Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href='services.html'>Services</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href='aboutus.html'>About Us</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href='blog.html'>Blog</a></li>
+                    </ul>
+                </div>
+                <form class="form-inline my-0 my-lg-0">
+                    <input class="form-control mr-sm-2 border border-dark" type="search" placeholder="" aria-label="Search" >
+                    <button class="btn btn-light my-2 my-sm-0 border border-dark" type="submit">Search</button>
+                </form>
+            </nav>
+        </div>
     </nav>
 
     <div class="container">
