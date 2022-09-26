@@ -1,12 +1,22 @@
 .navbar {
-    
+    background-color: #606c38;
 }
 
-.hours-box {
-
-   /* max-width: 400px; */
+.body {
+   background-color: #fefae0; 
 }
 
 .jumbotron {
     margin: 0;
+    background-color: #a9b7a4;
+}
+
+.header-hours {
+    background-color: #dda15e; 
+    height: 30px;
+}
+
+.border {
+
+ 
 }
