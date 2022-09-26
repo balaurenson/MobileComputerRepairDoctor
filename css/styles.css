@@ -2,8 +2,12 @@
     background-color: #606c38;
 }
 
+.title {
+    font-family: 'Oswald', sans-serif;
+}
 .body {
    background-color: #fefae0; 
+
 }
 
 .jumbotron {
@@ -12,7 +16,7 @@
 }
 
 .header-hours {
-    background-color: #dda15e; 
+    /*background-color: #dda15e; */
     height: 30px;
 }
 
