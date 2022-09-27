@@ -18,34 +18,28 @@
 
     <title>Mobile Computer Repair Doctor</title>
 </head>
-<body class=" bg-dark">
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top"> <!-- edit more and reference Bootstrap Week 1 Navigation-exer navbar and crumbs -->
-        <div class="container">
-            <nav class="navbar navbar-expand-sm border border-dark">
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#computerNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="computerNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active"><a class="nav-link text-dark" href='#'>Home</a></li>
-                        <li class="nav-item"><a class="nav-link text-dark" href='services.html'>Services</a></li>
-                        <li class="nav-item"><a class="nav-link text-dark" href='aboutus.html'>About Us</a></li>
-                        <li class="nav-item"><a class="nav-link text-dark" href='blog.html'>Blog</a></li>
-                    </ul>
-                </div>
-                <form class="form-inline my-0 my-lg-0">
-                    <input class="form-control mr-sm-2 border border-dark" type="search" placeholder="" aria-label="Search" >
-                    <button class="btn btn-light my-2 my-sm-0 border border-dark" type="submit">Search</button>
-                </form>
-            </nav>
-        </div>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top"> <!-- edit more and reference Bootstrap Week 2 Navigation-exer navbar and crumbs -->
+        <nav class="navbar navbar-expand-sm">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#computerNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="computerNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link text-dark" href='#'>Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href='services.html'>Services</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href='aboutus.html'>About Us</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href='blog.html'>Blog</a></li>
+                </ul>
+            </div>
+        </nav>
     </nav>
 
     <Header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1 class="title"><i class="fa-solid fa-lg fa-user-doctor mr-3"></i>Mobile Computer Repair Doctor</h1>
+                    <h1 class="title"><i class="fa-solid fa-lg fa-user-doctor "></i>Mobile Computer Repair Doctor</h1>
                     <h6>Free Diagnostics - Same Day Service - $50 job</h6>
                 </div>
             </div>
@@ -53,51 +47,89 @@
     </Header>
 
 
-    <div class="container">
-        <div class="row pt-4 pb-4  hours-box">
-            <div class="col-6 bg-secondary">
-                <h6 class="header-hours">Hours of Operation</h6>
-                <div class="row">
-                    <div class="col-6">
-                        <p>Monday - Friday</p>
-                        <p>Saturday</p>
-                        <p>Sunday </p>
-                        <p></p>
-                    </div>
-                    <div class="col-6">
-                
-                    <p> 8AM to 8PM</p>
-                    <p> 8AM to 7PM</p>
-                    <p> 9AM to 5PM</p>
-                    
-                </div>
-                <p>18888 East 9 Mile Road, EastPointe, MI 48021</p>
-            </div>
-            </div>
+    <div class="container pt-4 pb-4 hours-box">
+        <div class="row">
             <div class="col-6">
-                <img class="img-fluid" src="./image/storeFront.jpg">
-                <p><a href="https://www.pexels.com/photo/photo-of-store-front-3988037/">Photo by Viktor Mogilat from Pexels</a></p>
+                <div class="card bg-secondary ">
+                    <div class="card-body text-white">
+                        <h4 class="card-header">Hours of Operation</h4>
+                        <div class="card-body">
+                            <dl class="row">
+                                <dt class="col-6">Monday - Friday</dt>
+                                <dd class="col-6">8AM to 8PM</dd>
+                                <dt class="col-6">Saturday</dt>
+                                <dd class="col-6">8AM to 7PM</dd>
+                                <dt class="col-6">Sunday</dt>
+                                <dd class="col-6">9AM to 5PM</dd>
+                                <dt class="col-6"></dt>
+                                <dd class="col-6"></dd>
+                            </dl>
+                            <dl>18888 East 9 Mile Road <br /> EastPointe, MI 48021</dl>
+                        </div>
+                    </div>
+                </div>
             </div>
+        <div class="col-6">
+            <img class="img-fluid" src="./image/storeFront.jpg">
+            <a class="deco-none text-white" href="https://www.pexels.com/photo/photo-of-store-front-3988037/">Photo by Viktor Mogilat from Pexels</a>
         </div>
     </div>
-
+    <div class="col-6 pt-3 text-white">
+        <form>
+            <div class="form-group row">
+                <label for="name" class="col-4 col-form-label">Name</label>
+                <div class="col-8">
+                    <input type="text" class="form-control" id="name" placeholder="Name"/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="email" class="col-4 col-form-label">Email</label>
+                <div class="col-8">
+                    <input type="email" class="form-control" id="email" placeholder="Email"/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="areaCode" class="col-4 col-form-label">Telephone</label>
+                <div class="col-3">
+                    <input type="tel" class="form-control" id="areaCode" placeholder="Area Code" />
+                </div>
+                <div class="col-5">
+                    <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="date" class="col-4 col-form-label">Date</label>
+                <div class="col">
+                    <input class="form-control" type="date" id="date" name="date" placeholder="date" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="comment" class="col-4 col-form-label">Comment</label>
+                <div class="col-8">
+                    <textarea class="form-control" id="comment" name="comment" rows="8" placeholder=""></textarea>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="offset-4 col-2">
+                    <button type="submit" class="btn btn-light">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
 
     <footer>
-        <div class="row">
-            <a href="http://facebook.com/" class="col-1 bg-secondary"><i class="fa-brands fa-2x fa-facebook-f"></i></a>
-            <a href="http://instagram.com/" class="col-1 bg-light"><i class="fa-brands fa-2x fa-instagram"></i></a>
-            <a href="http://twitter.com/" class="col-1 bg-secondary"><i class="fa-brands fa-2x fa-twitter"></i></a>
-            <a href="http://youtube.com/" class="col-1 bg-light"><i class="fa-brands fa-2x fa-youtube"></i></a>
-            <a class="col-1 bg-secondary"></a>
-            <a class="col-1 bg-light"></a>
-            <a class="col-1 bg-secondary"></a>
-            <a class="col-1 bg-light"></a>
-        </div>  
-        <div class="row">
-            <a class="" href="#">Home</a>
-            <a class="" href="#">About</a>
-            <a class="" href="#">Sites</a>
-            <a class="" href="#"><i class="fa-solid fa-3x fa-square-envelope"></i>Contact</a>
+        <div class="container">
+            <div class="row">
+                <a href="http://facebook.com/" class="col-1 bg-secondary"><i class="fa-brands fa-2x fa-facebook-f p-2"></i></a>
+                <a href="http://instagram.com/" class="col-1 bg-light"><i class="fa-brands fa-2x fa-instagram p-2"></i></a>
+                <a href="http://twitter.com/" class="col-1 bg-secondary"><i class="fa-brands fa-2x fa-twitter p-2"></i></a>
+                <a href="http://youtube.com/" class="col-1 bg-light"><i class="fa-brands fa-2x fa-youtube p-2"></i></a>
+                <a class="col-1 bg-secondary"></a>
+                <a class="col-1 bg-light"></a>
+                <a class="col-1 bg-secondary"></a>
+                <a class="col-1 bg-light"></a>
+            </div>  
         </div>
     </footer>
 

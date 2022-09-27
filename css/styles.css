@@ -1,3 +1,11 @@
+body {
+    background-color: #343a40;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
 .navbar {
     background-color: #606c38;
 }
@@ -15,12 +23,10 @@
     background-color: #a9b7a4;
 }
 
-.header-hours {
-    /*background-color: #dda15e; */
-    height: 30px;
-}
 
-.border {
 
+a.deco-none {
+    /*text-decoration: none;
+    
  
 }
